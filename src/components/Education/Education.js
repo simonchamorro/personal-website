@@ -21,9 +21,10 @@ export default class Education extends Component {
               <div className="twelve columns">
                 <h3>Université de Sherbrooke</h3>
                 <p className="info">Bachelor's Degree in Robotics Engineering <span>•</span> <em className="date">2017 - 2021</em></p>
+                <p>GPA: 4.24/4.3</p>
                 <p>
-                  I am currently completing my 3rd year of the co-op Robotics Engineering program.
-                  GPA: 4.27/4.3
+                  I am currently completing my 4th year of the co-op Robotics Engineering program.
+                  I have also been a teaching assistant for the course GRO302: Mobile Robotics Semester Project.
                 </p>
               </div>
             </div> {/* item end */}

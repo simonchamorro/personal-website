@@ -23,7 +23,7 @@ export default class Header extends Component {
           </div>
           <div className="banner-text">
             <h1 className="responsive-headline">Simon Chamorro</h1>
-            <h3>I'm a 3rd-year <span>Robotics Engineering</span> student at the <span>University of Sherbrooke.</span> I am interested in <span>Robotics Software</span> and <span>Artificial Intelligence</span>. 
+            <h3>I'm a 4th-year <span>Robotics Engineering</span> student at the <span>University of Sherbrooke.</span> I am interested in <span>Robotics Software</span> and <span>Artificial Intelligence</span>. 
               Scroll to learn more about my projects and don't hesitate to contact me!</h3>
             <hr />
             <ul className="social">

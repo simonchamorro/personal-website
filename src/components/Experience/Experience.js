@@ -4,14 +4,52 @@ export default class Experience extends Component {
     return (
       <React.Fragment>
       <section id="experience">
+        <div className="exp" id="exp-mda">
+          <div className="row">
+            <div className="eight columns main-col">
+              <h2>MDA</h2>
+              <h4>Vancouver, BC, Canada - May 2021 to Aug 2021</h4>
+              <p>This summer, I am excited to join MDA for a 4-month internship.
+               I will be working on Machine Learning and aerial image analysis.
+              </p>
+              
+            </div> {/* end .main-col */}
+            <div className="four columns">
+              <a href="https://mda.space/en/" target="_blank">
+                <img className="img-exp" src="images/logo-mda.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="exp" id="exp-drdc">
+          <div className="row">
+            <div className="eight columns main-col">
+              <h2>Defense R&D Canada</h2>
+              <h4>Suffield, AB, Canada - Sept 2020 to Dec 2020</h4>
+              <p>During my time at DRDC, I worked in the autonomous robotics group.
+              My research project consisted in building a gesture recognition system for vehicle teleoperation.
+              I developed a modular system composed of a body pose estimation CNN from lidar data as well as a gesture classifier based on a LSTM network.
+              </p>
+              
+            </div> {/* end .main-col */}
+            <div className="four columns">
+              <a href="https://www.canada.ca/en/defence-research-development.html" target="_blank">
+                <img className="img-exp" src="images/photo-drdc.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="exp" id="exp-huawei">
           <div className="row">
             <div className="eight columns main-col">
               <h2>Huawei Self-Driving</h2>
               <h4>Markkaham, ON, Canada - Jan 2020 to Apr 2020</h4>
-              <p>I worked in Huawei’s Planning team as a research intern, which is a sub-team of the self-driving team. 
-              My work consisted in solving path-planning problems with learning-based methods. 
-              My tasks have included adding features to our simulator as well as researching and implementing Reinforcement Learning methods such as Soft Actor-Critic to solve motion planning tasks.
+              <p>I worked in Huawei’s Self-Driving Planning team as a research intern.
+              My work consisted in exploring methods to perform safe path-planning under uncertainty.
+              I worked on adding features to our simulator, researching and implementing different RL algorithms and writing about my work.
               </p>
               
             </div> {/* end .main-col */}

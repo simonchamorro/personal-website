@@ -14,10 +14,10 @@ export default class Projects extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-01" title>
-                    <img alt="" src="images/portfolio/rover.jpg" />
+                    <img alt="" src="images/portfolio/rover1.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Rover</h5>
+                        <h5>Zeus Rover</h5>
                         <p>Software Development</p>
                       </div>
                     </div>
@@ -108,12 +108,12 @@ export default class Projects extends Component {
           <div id="modal-01" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-rover.jpg" alt="" />
             <div className="description-box">
-              <h4>Robotique UdeS Rover</h4>
+              <h4>Robotique UdeS - Zeus Rover</h4>
               <p></p>
               <span className="categories"><i className="fa fa-tag" />Robotics, Software Development</span>
             </div>
             <div className="link-box">
-              <a target="_blank" href="https://github.com/robotique-udes/rover_udes">Details</a>
+              <a target="_blank" href="https://robotiqueudes.ca/zeus/">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-01 End */}
