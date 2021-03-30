@@ -4,19 +4,19 @@ export default class Experience extends Component {
     return (
       <React.Fragment>
       <section id="experience">
-        <div className="exp" id="exp-mda">
+        <div className="exp" id="exp-unity">
           <div className="row">
             <div className="eight columns main-col">
-              <h2>MDA</h2>
+              <h2>Unity Technologies</h2>
               <h4>Vancouver, BC, Canada - May 2021 to Aug 2021</h4>
-              <p>This summer, I am excited to join MDA for a 4-month internship.
-               I will be working on Machine Learning and aerial image analysis.
+              <p>This summer, I am excited to join Unity for a 4-month internship.
+               I will be working on Robotics and Machine Learning.
               </p>
               
             </div> {/* end .main-col */}
             <div className="four columns">
               <a href="https://mda.space/en/" target="_blank">
-                <img className="img-exp" src="images/logo-mda.jpg" alt="" />
+                <img className="img-exp" src="images/logo-unity.jpg" alt="" />
               </a>
             </div>
           </div>
